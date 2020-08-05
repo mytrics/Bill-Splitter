@@ -1,0 +1,59 @@
+.main{
+    background-color: antiquewhite;
+    text-align: center;
+
+    
+}
+
+.amount{
+    text-align: center;
+    font-size: 20px;
+}
+
+.mid{
+    font-size: 20px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+#service{
+    margin-top: 20px;
+    height: 30px;
+    width: 300px;
+}
+
+.last{
+    padding-top: 20px;
+    text-align: center;
+    font-size: medium;
+}
+#people{
+    margin-top: 15px;
+}
+#btn{
+    margin-top: 30px;
+    font-size: 30px;
+    background-color: red;
+}
+
+#amt
+{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 30px;
+    
+}
+#billsplit
+{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 30px;
+
+}
+#rate
+{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 30px;
+    
+}

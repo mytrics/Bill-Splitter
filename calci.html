@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style1.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+</head>
+<body>
+    <h1 class="main">Bill Splitter</h1>
+    <div class="amount">
+    <label>how much was your bill?<br></label>
+    <input type="text" id="bill" required placeholder="Bill Amount">
+    </div>
+  <div class="mid">
+    <label for="services">How was your service? <br></label>
+<select id="service">
+    
+  <option value="Select an option" disabled selected>Select an option</option>
+  <option value="Excelent">Excelent</option>
+  <option value="Good">Good</option>
+  <option value="Poor">Poor</option>
+  <option value="Worse">Worse</option>
+</select>
+  </div>
+  <div class="last">
+<label>how many people are sharing the bill?<br></label>
+    <input type="text" id="people" required placeholder="number of people">people<br>
+    <button id="btn" type="submit">Calculate</button>    
+</div>
+<div id="result">
+<div id="amt">
+  <span id="ttl">0.00</span>
+  <small id="txt1">rupee  Total amount</small>
+</div>
+
+<div id="billsplit">
+<span id="split">0.00</span>
+<small id="each">rupee  Per person</small>
+</div>
+
+<div id="rate">
+  <span id="grade">00</span>
+  <small id="txt">Rating</small>
+</div>
+
+</div>
+    <script src="sscript.js"></script>
+
+</body>
+</html>
